@@ -18,7 +18,9 @@ Try API and test it
    Name                    URL                                        Tag
    ___________________________________________________________________________
    Dog Facts API           https://dog-api.kinduff.com/api/facts      Testing
+   
    IP Info                 https://ipinfo.io/json                     General
+   
    Chuck Norris Jokes      https://api.chucknorris.io/jokes/random    Testing
 
 
@@ -42,16 +44,27 @@ Live Grafana Snapshots[http://localhost:3000/dashboard/snapshot/0DHZ3xwvGaMBZX7t
  Feature                                      Description
  ________________________________________________________________________________________________________________________
  🔴 Live Dashboard                            Real-time stats — success rate, avg response, failing APIs, total checks.
+ 
  📊 Response Time Charts                      Bar chart showing last 40 checks per API — green = success, red = failure.
+ 
  📈 30-Day Uptime Heatmap                     GitHub-style heatmap showing daily uptime % for any API.
+ 
  📉 24-Hour Trend Line                        Hourly average response time over the last 24 hours.
+ 
  ⏱️ Custom Thresholds                         Per-API warn/critical ms limits with colour-coded speed badges.
+ 
  ⏸️ Pause / Resume                            Temporarily stop monitoring any API without deleting its history.
+ 
  📝 Notes & Tags                              Label APIs as Production / Testing / Staging with custom notes.
+ 
  📧 Email Alerts                              Gmail SMTP alerts when an API goes down, with recovery notification.
+ 
  📥 CSV Export                                Download all check history or summary report as Excel-compatible CSV.
+ 
  📊 Grafana Integration                       Connect SQLite datasource for professional dashboards.
+ 
  🌐 REST API                                  Full JSON API for all operations — queryable from any tool.
+ 
  🔁 Auto Refresh                              Dashboard auto-refreshes every 15 seconds.
 
 
@@ -60,11 +73,17 @@ Live Grafana Snapshots[http://localhost:3000/dashboard/snapshot/0DHZ3xwvGaMBZX7t
   Layer                Technology                               Why
   ________________________________________________________________________________________________________
   Backend              Python 3.10+, Flask 3.0                  Lightweight REST API server.
+  
   Database             SQLite 3                                 Zero-setup embedded database.
+  
   HTTP Client          Requests                                 Industry-standard HTTP library.
+  
   Concurrency          Python threading                         Background monitor alongside web server.
+  
   Frontend             Vanilla JS, Chart.js 4                   No framework needed — fast and lightweight.
+  
   Visualization        Grafana 10 + frser-sqlite-datasource     Professional dashboards from SQLite.
+  
   Tunneling            ngrok                                    Instant public HTTPS URL for sharing.
 
 
@@ -211,19 +230,33 @@ ________________________________________________________________________________
   Method        Endpoint                    Description
   ________________________________________________________________
   GET           /                           Serve the dashboard
+  
   GET           /api/apis                   List all monitored APIs
+  
   POST          /api/apis                   Add a new API
+  
   DELETE        /api/apis/<id>              Remove an API
+  
   POST          /api/check/<id>             Trigger an immediate check
+  
   POST          /api/apis/<id>/pause        Toggle pause / resume
+  
   POST          /api/apis/<id>/notes        Update notes and tag
+  
   POST          /api/apis/<id>/thresholds   Update warn/critical ms
+  
   GET           /api/stats                  Global stats
+  
   GET           /api/summary                Per-API summary with uptime %
+  
   GET           /api/history/<id>           Last N checks for one API
+  
   GET           /api/heatmap/<id>           30-day daily uptime data
+  
   GET           /api/trend/<id>             24-hour hourly avg response
+  
   GET           /api/export/checks          Download all checks as CSV
+  
   GET           /api/export/summary         Download summary as CSV
 
 
@@ -258,12 +291,19 @@ Example: Global stats response
    Skill                     How it's shown
    __________________________________________________________________________________________
    Python backend            Flask REST API with clean route separation.
+   
    Database design           Normalised SQLite schema, migrations, aggregate queries.
+   
    Concurrency               threading.Thread running background worker alongside web server.
+   
    REST API design           HTTP methods, status codes, JSON, Content-Disposition headers.
+   
    Frontend (no framework)   fetch API, Chart.js, DOM manipulation, modals, tab navigation.
+   
    Data visualization        Bar charts, line charts, heatmap, Grafana panels.
+   
    System design             Single-responsibility modules, separation of concerns.
+   
    Problem solving           Fixed ngrok Content-Type, SQLite migration, HTTPS issues.
    
 
