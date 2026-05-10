@@ -23,6 +23,25 @@ Try API and test it
    
    Chuck Norris Jokes      https://api.chucknorris.io/jokes/random    Testing
 
+📸 Screenshots
+
+  1. 🎯 Live Dashboard
+    ![Live Dashboard](screenshots/1-dashboard.png)
+
+  2. 📊 Response Time Analytics
+    ![Response Time Chart](screenshots/2-chart.png)
+
+  3. 📋 API Management
+    ![API List](screenshots/3-api-list.png)
+
+  4. 📈 Global Statistics
+    ![Stats Cards](screenshots/4-stats.png)
+
+ 5. 🛠️ Add & Monitor New APIs
+   ![Add API Form](screenshots/5-add-api.png)
+
+ 6. 📤 Export Data
+   ![CSV Export](screenshots/6-export.png)
 
 🚀 Live Demo
 
