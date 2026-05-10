@@ -27,20 +27,21 @@ Try API and test it
 
   1. 🎯 Live Dashboard
     ![Live Dashboard](screenshots/1-dashboard.png)
+    ![Live Dashboard](screenshots/2-dashboard.png)
 
-  2. 📊 Response Time Analytics
+  3. 📊 Response Time Analytics
     ![Response Time Chart](screenshots/2-chart.png)
 
-  3. 📋 API Management
+  4. 📋 API Management
     ![API List](screenshots/3-api-list.png)
 
-  4. 📈 Global Statistics
+  5. 📈 Global Statistics
     ![Stats Cards](screenshots/4-stats.png)
 
- 5. 🛠️ Add & Monitor New APIs
+ 6. 🛠️ Add & Monitor New APIs
    ![Add API Form](screenshots/5-add-api.png)
 
- 6. 📤 Export Data
+ 7. 📤 Export Data
    ![CSV Export](screenshots/6-export.png)
 
 🚀 Live Demo
