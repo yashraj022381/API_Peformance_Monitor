@@ -28,7 +28,7 @@ Try API and test it
 
 You can access the live application here:[https://uncoiled-eclipse-strobe.ngrok-free.dev]
 
-Live Grafana Snapshots[http://localhost:3000/dashboard/snapshot/0DHZ3xwvGaMBZX7tfcB6b2AttqswG2DQ]
+Live Grafana Snapshots here:[http://localhost:3000/dashboard/snapshot/0DHZ3xwvGaMBZX7tfcB6b2AttqswG2DQ]
 
 
 📌 Project Overview
