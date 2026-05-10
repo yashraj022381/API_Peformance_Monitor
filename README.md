@@ -41,6 +41,7 @@ Try API and test it
  6. 🛠️ Add & Monitor New APIs
    ![Add API Form](screenshots/5-add-api.png)
    ![Add API Form](screenshots/6-add-api.png)
+   ![Add API Form](screenshots/7-add-api.png)
 
  8. 📤 Export Data
    ![CSV Export](screenshots/6-export.png)
