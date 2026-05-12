@@ -48,7 +48,7 @@ Try API and test it
 
 🚀 Live Demo
 
-You can access the live application here:[https://uncoiled-eclipse-strobe.ngrok-free.dev]
+You can access the live application here:[https://api-peformance-monitor-1.onrender.com]
 
 Live Grafana Snapshots here:[http://localhost:3000/goto/bflmdne6tu680e?orgId=1]
 
