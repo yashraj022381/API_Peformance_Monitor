@@ -606,5 +606,5 @@ if __name__ == "__main__":
     t = threading.Thread(target=background_monitor, daemon=True)
     t.start()
 
-    print("\n🚀 Visit: https://localhost:5000\n")
-    app.run(debug=True, use_reloader=False, port=5000)
+    print("\n🚀 Visit: https://localhost:0000\n")
+    app.run(debug=True, host="0.0.0.0", use_reloader=False, port=5000)
